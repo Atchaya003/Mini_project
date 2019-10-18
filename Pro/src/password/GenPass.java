@@ -1,9 +1,8 @@
 /****
- * created by Atchaya, keshaw shree, kaarthikeyan
+ * created by Atchaya, keshaw shree,
  * Program to generate password
  * gmail: shreeatchayadevi@gmail.com
  * 		  keshawmoorthy@gmail.com
- * 		  gk81299@gmail.com
  */
 package password;
 import java.util.*;
@@ -11,7 +10,7 @@ public class GenPass {
 	
 		public static void main(String[] args) 
 		{ 
-			 
+			System.out.println("---PLEASE WAIT---");
 			int length = 10; 
 			System.out.println(Password(length)); 
 			int length1 = 4; 
@@ -19,7 +18,7 @@ public class GenPass {
 		}  
 		static char[]Password(int len) 
 		{ 
-			System.err.println("---PLEASE WAIT---");
+
 			System.out.println("Generating password"); 
 			System.out.print("Your new password is : "); 
 
@@ -27,7 +26,7 @@ public class GenPass {
 			String Capital_chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"; 
 			String Small_chars = "abcdefghijklmnopqrstuvwxyz"; 
 			String numbers = "0123456789"; 
-					String symbols = "!@#$%^&*_=+-/.?<>)"; 
+			String symbols = "!@#$%^&*_=+-/.?<>)"; 
 					
 			String values = Capital_chars + Small_chars + 
 							numbers + symbols; 
